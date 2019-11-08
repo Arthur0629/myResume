@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>First try</title>
+        <script src="..\try1\angular.js"></script>
+        <script src="..\try1\index.js"></script>
+        <link rel="stylesheet" href="..\try1\index.css">
+    </head>
+    <body ng-app = "app" ng-controller="appCtrl" ng-enter="enterPress()">
+        <div class="card">
+            <h1 class="title">{{message}}</h1>
+            <div class="calculator">
+                Enter Numbers to Multiply: 
+                <input class="textBox" type="text" ng-model="Num1" placeholder="0"/><br>
+                x<br> 
+                <input class="textBox" type="text" ng-model="Num2" placeholder="0"/><br> 
+                <a class="submitBtn" ng-click="submit()">submit</a>
+                <h3 class="answer">{{try}}</h3>
+            </div>
+        </div>
+        
+    </body>
+</html>
