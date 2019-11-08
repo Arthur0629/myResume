@@ -65,7 +65,7 @@ body{
     border-radius: 20px;
 
 }
-.card .textBox[type="text"]{
+.card .calculator .textBox[type="text"]{
     position: relative;
     font-size:24px;
 }
