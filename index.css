@@ -17,12 +17,18 @@ body{
     top: 50%;
     transform: translate(-50%,-50%);
 }
-.title{
-    color:tomato;
-}
+
 .calculator{
     text-align: center;
     position: relative;
+}
+.calculator h1{
+    color:tomato;
+}
+.calculator h2{
+    color: black;
+    position: relative;
+    text-align: center;
 }
 .submitBtn{
     margin-left: auto;

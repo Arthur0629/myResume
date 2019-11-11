@@ -8,11 +8,11 @@
     <body ng-app = "app" ng-controller="appCtrl" ng-enter="enterPress()">
         <div class="card">
             <div class="calculator">
-                <h1 class="title">{{message}}</h1>
-                Enter Numbers to Multiply: 
-                <input class="textBox" type="text" ng-model="Num1" placeholder="0"/><br>
-                x<br> 
-                <input class="textBox" type="text" ng-model="Num2" placeholder="0"/><br> 
+                <h1>{{message}}</h1>
+                <h2>Enter Numbers to Multiply:</h2>
+                <input class="textBox" type="text" ng-model="Num1" placeholder="0"/>
+                <h2>x</h2>
+                <input class="textBox" type="text" ng-model="Num2" placeholder="0"/>
                 <a class="submitBtn" ng-click="submit()">submit</a>
                 <h3 class="answer">{{try}}</h3>
             </div>
