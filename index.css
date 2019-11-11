@@ -58,6 +58,21 @@ body{
     border-radius: 10px;
     background-color: greenyellow;
 }
+.card .calculator .answer:hover{
+    text-align: center;
+    font-size:40pt;
+    color:pink;
+    margin: auto;
+    position: relative;
+    top: 35px;
+    width: 70%;
+    padding:10px 20px;
+    border: 5px solid darkslategray;
+    border-radius: 10px;
+    background-color: greenyellow;
+    cursor: pointer;
+    text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+}
 .card .calculator .textBox{
     position: relative;
     text-align: center;
