@@ -6,17 +6,40 @@
         <link rel="stylesheet" href="..\try1\index.css">
     </head>
     <body ng-app = "app" ng-controller="appCtrl" ng-enter="enterPress()">
-        <div class="card">
-            <div class="calculator">
-                <h1>{{message}}</h1>
-                <h2>Enter Numbers to Multiply:</h2>
-                <input class="textBox" type="text" ng-model="Num1" placeholder="0"/>
-                <h2>x</h2>
-                <input class="textBox" type="text" ng-model="Num2" placeholder="0"/>
-                <a class="submitBtn" ng-click="submit()">submit</a>
-                <h3 class="answer">{{try}}</h3>
+        <section class="section1">
+            <video autoplay muted loop id="myVideo">
+                <source src="../try1/video/rain.mp4">
+                    Sorry, your browser does not support HTML5 video.
+            </video>
+            <h1>Arthur Hsiao</h1>
+            <div class="title">
+                <div class="cardTitle">
+                    <h2>An active learner</h2>
+                </div>            
+                <div class="cardTitle">
+                    <h2>Web developer</h2>
+                </div>
+                <div class="cardTitle">
+                    <h2>QUT Master student</h2>
+                </div>
+                
             </div>
-        </div>
+
+        </section>
+        <section class ="section2">
+            <div class="card">
+                <div class="calculator">
+                    <h1>{{message}}</h1>
+                    <h2>Enter Numbers to Multiply:</h2>
+                    <input class="textBox" type="text" ng-model="Num1" placeholder="0"/>
+                    <h2>x</h2>
+                    <input class="textBox" type="text" ng-model="Num2" placeholder="0"/>
+                    <a class="submitBtn" ng-click="submit()">submit</a>
+                    <h3 class="answer">{{answer}}</h3>
+                </div>
+            </div>
+        </section>
+        
         
     </body>
 </html>

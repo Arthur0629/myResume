@@ -16,25 +16,25 @@ app.directive('ngEnter', function () {
 
 app.controller("appCtrl", function($scope) {  
     $scope.message="Calculator";
-    $scope.try= "";
+    $scope.answer= "press enter or the button";
     $scope.submit = function(){
         if($scope.Num1 == null || $scope.Num2 == null)
         {
-            $scope.try = 0;
+            $scope.answer = 0;
         }
         else
         {
-            $scope.try = $scope.Num1 * $scope.Num2
+            $scope.answer = $scope.Num1 * $scope.Num2
         }
     }
     $scope.enterPress = function(){
         if($scope.Num1 == null || $scope.Num2 == null)
         {
-            $scope.try = 0;
+            $scope.answer = 0;
         }
         else
         {
-            $scope.try = $scope.Num1 * $scope.Num2
+            $scope.answer = $scope.Num1 * $scope.Num2
         }
     }
 });
