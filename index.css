@@ -62,8 +62,32 @@ body{
     transform: translateY(-5px);
     box-shadow: 0 15px 35px rgba(0, 0,0, .5);
 }
-
-.section2{
+.CareerObj{
+    background: lightgreen;
+    border: 3px solid;
+    padding: 0 20px;
+    margin: 0 20px;
+    cursor: default;
+}
+.CareerObj h2{
+    font-size: 30pt;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 0 20px;
+    text-decoration: underline dotted blue;
+}
+.CareerObj p{
+    text-align: center;
+    font-size: large;
+    padding: 10px 20px;
+    margin: 0 20px;
+}
+.CareerObj p mark{
+    padding:5px 5px;
+    background: black;
+    color:yellow
+}
+.CalculatorSection{
     background: lightsalmon;
     border: 3px solid;
     padding: 0 20px;
