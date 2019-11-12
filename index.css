@@ -87,19 +87,19 @@ body{
     background: black;
     color:yellow
 }
-.CalculatorSection{
+.demoSection{
     background: lightsalmon;
     border: 3px solid;
-    padding: 0 20px;
+    display:flex;
+    justify-content: center;
+    padding: 0 0px;
     margin: 0 20px;
 }
-.card{
+.calculatorCard{
     width: 400px;
-    background: cornsilk;
     padding:40px;
+    background: cornsilk;
     position: relative;
-    left: 50%;
-    transform: translate(-50%,0);
     cursor: default;
 }
 .calculator{
@@ -137,7 +137,7 @@ body{
     border-radius: 20px;
     cursor: pointer;
 }
-.card .calculator .answer{
+.answer{
     text-align: center;
     margin: auto;
     position: relative;
@@ -148,28 +148,61 @@ body{
     border-radius: 10px;
     background-color: greenyellow;
 }
-.card .calculator .answer:hover{
+.answer:hover{
     text-align: center;
-    font-size:40pt;
     color:pink;
     margin: auto;
     position: relative;
-    top: 35px;
-    width: 70%;
-    padding:10px 20px;
     border: 5px solid darkslategray;
     border-radius: 10px;
     background-color: greenyellow;
-    text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+    -webkit-text-stroke: 1px black;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0,0, .5);
+    
 }
-.card .calculator .textBox{
+.textBox{
     position: relative;
     text-align: center;
     border: 3px solid;
     border-radius: 20px;
+    
 
 }
-.card .calculator .textBox[type="text"]{
+.textBox[type="text"]{
     position: relative;
     font-size:24px;
+}
+.animate{
+    width: 450px;
+    padding:0 40px;
+    background: black;
+    position: relative;
+}
+.animate svg{
+    position: absolute;
+    top:50px;
+    width: 400px;
+    fill: none;
+}
+.animate svg:nth-child(2){
+   filter: blur(40px);
+}
+.animate svg path{
+    d: path("M0,25 C150,110 150,-60 300,25");
+    stroke: blue;
+    stroke-width: 50;
+    stroke-linecap: round;
+    transform: translate(50px,50%);
+    animation: animate 2s ease-in-out infinite;
+}
+@keyframes animate{
+    0%{
+        stroke: blue;
+        d: path("M0,25 C150,110 150,-60 300,25");
+    }
+    50%{
+        stroke: red;
+        d: path("M0,25 C160,-50 140,110 300,25")
+    }
 }
