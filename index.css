@@ -61,28 +61,71 @@ body{
     transform: translateY(-5px);
     box-shadow: 0 15px 35px rgba(0, 0,0, .5);
 }
-.CareerObj{
-    background: lightgreen;
+.personalInf{
+    padding:10px;
+    border: 3px solid;
+    display:flex;
+    justify-content: center;
+    margin: 0 20px;
+    background: url(img/wall-bricks.jpg);
+}
+.contact{
+    background: rgb(241, 189, 241);
+    position: relative;
+    width: 50%;
     border: 3px solid;
     padding: 0 20px;
     margin: 0 20px;
     cursor: default;
 }
-.CareerObj h2{
+.contact h2{
+    font-size: 30pt;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 0 20px;
+    text-decoration: underline dotted red;
+}
+.contact div{
+    text-align: center;
+    text-justify: center;
+    padding:20px;
+    margin: 0 20px;
+}
+.contact div a{
+    color:black;
+    font-size: 20pt;
+}
+.contact div a:nth-child(2){
+    color:black;
+    font-size: 15pt;
+}
+.card-icon{
+    font-size: 20pt;
+}
+
+.careerObj{
+    background: lightgreen;
+    position: relative;
+    width: 50%;
+    border: 3px solid;
+    padding: 0 20px;
+    margin: 0 20px;
+    cursor: default;
+}
+.careerObj h2{
     font-size: 30pt;
     text-align: center;
     padding: 10px 20px;
     margin: 0 20px;
     text-decoration: underline dotted blue;
 }
-.CareerObj p{
+.careerObj p{
     text-align: center;
-    font-size: large;
     padding: 10px 20px;
     margin: 0 20px;
     font-size: 20pt;
 }
-.CareerObj p mark{
+.careerObj p mark{
     padding:5px 5px;
     background: black;
     color:yellow
@@ -91,8 +134,6 @@ body{
     background: lightsalmon;
     border: 3px solid;
     display:flex;
-    justify-content: center;
-    padding: 0 0px;
     margin: 0 20px;
 }
 .calculatorCard{
@@ -166,22 +207,21 @@ body{
     text-align: center;
     border: 3px solid;
     border-radius: 20px;
-    
-
 }
 .textBox[type="text"]{
     position: relative;
     font-size:24px;
 }
 .animate{
-    width: 450px;
-    padding:0 40px;
+    width: 400px;
+    padding:40px;
     background: black;
     position: relative;
 }
 .animate svg{
     position: absolute;
     top:50px;
+    left: -10px;
     width: 400px;
     fill: none;
 }
@@ -205,4 +245,15 @@ body{
         stroke: red;
         d: path("M0,25 C160,-50 140,110 300,25")
     }
+}
+.coming{
+    width: 400px;
+    position: relative;
+    cursor: default;
+}
+.coming div{
+    position: relative;
+    top:50%;
+    text-align: center;
+
 }
