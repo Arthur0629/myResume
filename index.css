@@ -79,6 +79,7 @@ body{
     cursor: default;
 }
 .contact h2{
+    position: relative;
     font-size: 30pt;
     text-align: center;
     padding: 10px 20px;
@@ -86,6 +87,7 @@ body{
     text-decoration: underline dotted red;
 }
 .contact div{
+    position: relative;
     text-align: center;
     text-justify: center;
     padding:20px;
