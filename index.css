@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 body{
     background: url(img/wood.jpg);  
@@ -27,7 +28,7 @@ body{
 .section1 h1{
     text-align: center;
     font-size: 80pt;
-    -webkit-text-stroke: 5px red;
+    -webkit-text-stroke: 3px red;
 }
 .section1 .title{
     width: auto;
