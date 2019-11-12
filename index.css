@@ -13,6 +13,7 @@ body{
     position: relative;
     border: 3px solid;
     overflow: hidden;
+    margin: 0 20px;
 }
 #myVideo {
     position: absolute;
@@ -30,7 +31,7 @@ body{
     -webkit-text-stroke: 5px red;
 }
 .section1 .title{
-    width: 100%;
+    width: auto;
     padding:10px;
     background: lightblue;
     text-align: center;
@@ -49,7 +50,9 @@ body{
 }
 .section2{
     background: lightsalmon;
-    border: 3px solid
+    border: 3px solid;
+    padding: 0 20px;
+    margin: 0 20px;
 }
 .card{
     width: 400px;
