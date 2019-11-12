@@ -214,6 +214,7 @@ body{
 }
 .animate{
     width: 400px;
+    min-width: 400px;
     padding:40px;
     background: black;
     position: relative;
