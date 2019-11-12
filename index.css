@@ -1,7 +1,6 @@
 *{
     margin:0;
     padding:0;
-    font-family: "Open Sans",sans-serif;
     box-sizing: border-box;
 
 }
@@ -81,6 +80,8 @@ body{
     font-size: large;
     padding: 10px 20px;
     margin: 0 20px;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 20pt;
 }
 .CareerObj p mark{
     padding:5px 5px;
