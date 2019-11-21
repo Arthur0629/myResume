@@ -151,19 +151,16 @@ body{
     background: cornsilk;
     position: relative;
     cursor: default;
-}
-.calculator{
     text-align: center;
-    position: relative;
+    align-items: center;
 }
-.calculator h1{
+.calculatorCard h1{
     color:red;
 }
-.calculator h2{
-    color: black;
-    position: relative;
-    text-align: center;
+.calculatorCard h2:nth-child(2){
+    color: blue;
 }
+
 .submitBtn{
     margin-left: auto;
     position: relative;
@@ -314,14 +311,14 @@ body{
         padding:40px;
         margin: 0 auto;
         cursor: default;
-        overflow: auto;
+        overflow: hidden;
     }
 
     .contact h2{
         text-align: center;
-        padding: 5px 10px;
+        padding: 0 10px;
         margin: 0 10px;
-        font-size: 12pt;
+        font-size: 18pt;
     }
 
     .contact div{
@@ -353,22 +350,22 @@ body{
         padding:40px;
         margin: 0 auto;
         cursor: default;
-        overflow: auto;
+        overflow: hidden;
         max-height: 400px;
     }
     
     .careerObj h2{
         text-align: center;
-        padding: 5px 10px;
+        padding: 0 10px;
         margin: 0 10px;
-        font-size: 12pt;
+        font-size: 14pt;
     }
 
     .careerObj p{
         text-align: center;
         padding: 5px 10px;
         margin: 0 10px;
-        font-size: 7pt;
+        font-size: 10pt;
     }
     .careerObj p mark{
         padding:2px 2px;
@@ -381,8 +378,18 @@ body{
         border: 3px solid;
         flex-direction: column;
         margin: 0 20px;
-        overflow: auto;
+        overflow: hidden;
     }
+
+    .calculatorCard h1{
+        color:red;
+        font-size: 18pt;
+    }
+    .calculatorCard h2:nth-child(2){
+        color: blue;
+        font-size: 14pt;
+    }
+    
 
     .animate svg path{
         d: path("M0,25 C150,110 150,-60 300,25");
