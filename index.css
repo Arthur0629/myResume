@@ -219,6 +219,14 @@ body{
     position: relative;
     font-size:24px;
 }
+
+.answerRecord{
+    width: 400px;
+    padding:40px;
+    background: chocolate;
+    border: 3px solid blue;
+    position: relative;
+}
 .animate{
     width: 400px;
     min-width: 400px;

@@ -129,6 +129,15 @@
         color: blue;
         font-size: 14pt;
     }
+
+    .answerRecord{
+        width: 100%;
+        height: 350px;
+        padding:40px;
+        background: chocolate;
+        border: 3px solid blue;
+        position: relative;
+    }
     
 
     .animate svg path{

@@ -61,6 +61,12 @@
                 <a class="submitBtn" ng-click="submit()">submit</a>
                 <h3 class="answer">{{answer}}</h3>
             </div>
+            <div class="answerRecord">
+                <h1>Answer Recored</h1>
+                <div ng-repeat="item in arrayOfItems">
+                    <p>{{item.itemName}}</p>
+                </div>
+            </div>
             <div class="animate">
                 <svg>
                     <path></path>
