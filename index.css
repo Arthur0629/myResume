@@ -146,7 +146,7 @@ body{
     overflow: auto;
 }
 .calculatorCard{
-    width: 400px;
+    width: 100%;
     padding:40px;
     background: cornsilk;
     position: relative;
@@ -211,6 +211,7 @@ body{
 .textBox{
     position: relative;
     text-align: center;
+    width: 80%;
     border: 3px solid;
     border-radius: 20px;
 }
@@ -295,11 +296,9 @@ body{
     }
 
     .personalInf{
-        padding:auto auto;
         border: 3px solid;
         flex-direction: column;
-        margin: 0 20px;
-        overflow: auto;
+        overflow: hidden;
         background: url(img/wall-bricks.jpg);
     }
 
@@ -307,8 +306,8 @@ body{
         background: rgb(241, 189, 241);
         position: relative;
         border: 3px solid;
-        width: 300px;
-        padding:40px;
+        width: 80%;
+        padding:10px;
         margin: 0 auto;
         cursor: default;
         overflow: hidden;
@@ -346,8 +345,8 @@ body{
         background: lightgreen;
         position: relative;
         border: 3px solid;
-        width: 300px;
-        padding:40px;
+        width: 80%;
+        padding:10px;
         margin: 0 auto;
         cursor: default;
         overflow: hidden;
@@ -402,7 +401,6 @@ body{
 
     .animate{
         width: 400px;
-        min-width: 400px;
         padding:100px;
         background: black;
         position: relative;
