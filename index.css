@@ -143,7 +143,7 @@ body{
     border: 3px solid;
     display:flex;
     margin: 0 20px;
-    overflow: auto;
+    overflow: hidden;
 }
 .calculatorCard{
     width: 400px;
