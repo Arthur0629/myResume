@@ -74,7 +74,7 @@ body{
 .contact{
     background: rgb(241, 189, 241);
     position: relative;
-    width: 50%;
+    width: 400px;
     max-height: 400px;
     border: 3px solid;
     padding: 0 20px;
@@ -112,12 +112,12 @@ body{
 .careerObj{
     background: lightgreen;
     position: relative;
-    width: 50%;
+    width: 400px;
     border: 3px solid;
     padding: 0 20px;
     margin: 0 20px;
     cursor: default;
-    overflow: auto;
+    overflow: hidden;
     max-height: 400px;
 }
 .careerObj h2{
@@ -129,7 +129,7 @@ body{
 }
 .careerObj p{
     text-align: center;
-    padding: 10px 20px;
+    padding: 10px 5px;
     margin: 0 20px;
     font-size: 20pt;
 }
@@ -146,8 +146,8 @@ body{
     overflow: auto;
 }
 .calculatorCard{
-    width: 100%;
-    padding:40px;
+    width: 400px;
+    padding:35px;
     background: cornsilk;
     position: relative;
     cursor: default;
@@ -267,163 +267,5 @@ body{
 
 }
 
-@media only screen and (max-width: 500px) {
-    .section1 .title .cardTitle{
-        background: lightgray;
-        padding: 0 3.5px;
-        margin: 0 3.5px;
-        width: calc(33%, -20px);
-        border: 3px solid;
-        border-radius: 20px;
-        transition: linear .3s;
-    }
 
-    .section1 .title .cardTitle h2{
-        font-size:10pt;
-    }
-
-    .section1 .title .cardTitle:hover{
-        background: lightgray;
-        padding: 0 3.5px;
-        margin: 0 3.5px;
-        width: calc(33%, -20px);
-        border: 3px solid red;
-        border-radius: 20px;
-        color:white;
-        -webkit-text-stroke: 1px black;
-        transform: translateY(-5px);
-        box-shadow: 0 15px 35px rgba(0, 0,0, .5);
-    }
-
-    .personalInf{
-        border: 3px solid;
-        flex-direction: column;
-        overflow: hidden;
-        background: url(img/wall-bricks.jpg);
-    }
-
-    .contact{
-        background: rgb(241, 189, 241);
-        position: relative;
-        border: 3px solid;
-        width: 80%;
-        padding:10px;
-        margin: 0 auto;
-        cursor: default;
-        overflow: hidden;
-    }
-
-    .contact h2{
-        text-align: center;
-        padding: 0 10px;
-        margin: 0 10px;
-        font-size: 18pt;
-    }
-
-    .contact div{
-        position: relative;
-        text-align: center;
-        text-justify: center;
-        padding:10px;
-        margin: 0 20px;
-    }
-
-    .card-icon{
-        font-size: 10pt;
-    }
-
-    .contact div a{
-        color:black;
-        font-size: 15pt;
-    }
-    .contact div a:nth-child(2){
-        color:black;
-        font-size: 10pt;
-    }
-
-    .careerObj{
-        background: lightgreen;
-        position: relative;
-        border: 3px solid;
-        width: 80%;
-        padding:10px;
-        margin: 0 auto;
-        cursor: default;
-        overflow: hidden;
-        max-height: 400px;
-    }
-    
-    .careerObj h2{
-        text-align: center;
-        padding: 0 10px;
-        margin: 0 10px;
-        font-size: 14pt;
-    }
-
-    .careerObj p{
-        text-align: center;
-        padding: 5px 10px;
-        margin: 0 10px;
-        font-size: 10pt;
-    }
-    .careerObj p mark{
-        padding:2px 2px;
-        background: black;
-        color:yellow
-    }
-
-    .demoSection{
-        background: lightsalmon;
-        border: 3px solid;
-        flex-direction: column;
-        margin: 0 20px;
-        overflow: hidden;
-    }
-
-    .calculatorCard h1{
-        color:red;
-        font-size: 18pt;
-    }
-    .calculatorCard h2:nth-child(2){
-        color: blue;
-        font-size: 14pt;
-    }
-    
-
-    .animate svg path{
-        d: path("M0,25 C150,110 150,-60 300,25");
-        stroke: blue;
-        stroke-width: 10;
-        stroke-linecap: round;
-        transform: translate(50px,50%);
-        animation: animate 2s ease-in-out infinite;
-    }
-
-    .animate{
-        width: 400px;
-        padding:100px;
-        background: black;
-        position: relative;
-    }
-    .animate svg{
-        position: absolute;
-        top:20px;
-        left: -10px;
-        width: 400px;
-        fill: none;
-    }
-
-    .coming{
-        width: 200px;
-        max-width: 400px;
-        position: relative;
-        cursor: default;
-    }
-    .coming div{
-        position: relative;
-        top:50%;
-        text-align: center;
-    
-    }
-  }
   
