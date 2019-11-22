@@ -55,7 +55,8 @@ app.controller("appCtrl", function($scope) {
     }
 
     $scope.removeRecored = function(){
-        $scope.arrayOfItems.splice(-1,1); 
+        var firstItem = $scope.arrayOfItems.shift();
+        firstItem.splice(-1,1); 
     }
 });
 
