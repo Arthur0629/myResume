@@ -18,6 +18,7 @@ app.controller("appCtrl", function($scope) {
     $scope.message="Calculator";
     $scope.answer= "press enter or the button";
     $scope.arrayOfItems = [];
+
     $scope.submit = function(){
         if($scope.Num1 == null || $scope.Num2 == null)
         {
@@ -35,6 +36,7 @@ app.controller("appCtrl", function($scope) {
             $scope.arrayOfItems.push(item);
         }
     }
+
     $scope.enterPress = function(){
         if($scope.Num1 == null || $scope.Num2 == null)
         {
@@ -50,6 +52,10 @@ app.controller("appCtrl", function($scope) {
             item.itemName=$scope.answer;
             $scope.arrayOfItems.push(item);
         }
+    }
+
+    $scope.removeRecored = function(){
+        $scope.arrayOfItems.splice(-1,1); 
     }
 });
 
