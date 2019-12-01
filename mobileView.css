@@ -171,8 +171,34 @@
     }
     .coming div{
         position: relative;
+        margin: 0;
+        padding: 0;
+        left: 30%;
         top:50%;
-        text-align: center;
+        height: 15pt;
+        overflow: hidden;
     
     }
+    
+    .coming div ul{
+        position: relative;
+        text-align: left;
+        animation: changingWords 6s linear infinite;
+    }
+    
+    @keyframes changingWords{
+        0%{
+            transform: translateY(-2pt);
+        }
+    
+        50%{
+            transform: translateY(-20pt);
+        }
+    
+    }
+    
+    .coming div ul li{
+        list-style-type: none;
+    }
+    
   }
